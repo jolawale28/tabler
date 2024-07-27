@@ -82,7 +82,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
           <link href="/img/logo-white.svg" rel="icon" />
           <link href="/img/logo-white.svg" rel="apple-touch-icon" />
-          <link rel="mask-icon" href="/img/logo-white.svg" color="#ffffff" />
+          <link rel="mask-icon" href="/img/logo-small.svg" color="#ffffff" />
 
           <meta name="title" content="website" />
           <meta name="author" content="Tabler Events Dashboard" />
@@ -95,7 +95,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <meta property="og:url" content="https://tabler-kohl.vercel.app/" />
           <meta property="og:title" content="Tabler :: Events Management App" />
           <meta property="og:description" content="Events management dashboard app" />
-          <meta property="og:image" content="/img/logo-white.svg" />
+          <meta property="og:image" content="/img/logo-small.svg" />
 
           {/* <!-- Twitter Meta Tags --> */}
           <meta name="twitter:card" content="summary_large_image" />
@@ -103,7 +103,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <meta property="twitter:url" content="https://tabler-kohl.vercel.app/" />
           <meta name="twitter:title" content="Tabler :: Events Management App" />
           <meta name="twitter:description" content="Events Management App" />
-          <meta name="twitter:image" content="/img/logo-white.svg" />
+          <meta name="twitter:image" content="/img/logo-small.svg" />
 
         </Head>
         
