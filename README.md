@@ -33,11 +33,6 @@ Tabler is an Event management dashboard app for organisation to check, monitor a
 
     5. Open http://localhost:3000 in your browser to see your app in action. The page will automatically reload if you make changes to the code.
 
-
-## Demo
-
-Insert gif or link to demo
-
 ## Demo
 
     1. Login as Admin
