@@ -1,0 +1,44 @@
+.eventcard {
+    cursor: pointer;
+}
+
+.eventcard:hover .eventcard_title {
+    color: rgb(33, 15, 151)
+}
+
+.image_overlay {
+    background-size: 100% !important;
+    transition: background-size ease 0.5s
+}
+
+.eventcard:hover .image_overlay {
+    background-size: 105% !important;
+}
+
+.customModal {
+    max-width: 600px !important;
+    width: 80% !important;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    .customModal {
+        width: 100% !important;
+        max-width: 85% !important;
+    }
+
+    div#user_profile_dropdown {
+        right: 5px !important
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .customModal {
+        width: 100% !important;
+        max-width: 85% !important;
+    }
+
+    div#user_profile_dropdown {
+        right: 5px !important
+    }
+}
