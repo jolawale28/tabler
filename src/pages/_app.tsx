@@ -79,6 +79,32 @@ export default function App({ Component, pageProps }: AppProps) {
       <>
         <Head>
           <title>Login :: Tabler</title>
+
+          <link href="/img/logo-white.svg" rel="icon" />
+          <link href="/img/logo-white.svg" rel="apple-touch-icon" />
+          <link rel="mask-icon" href="/img/logo-white.svg" color="#ffffff" />
+
+          <meta name="title" content="website" />
+          <meta name="author" content="Tabler Events Dashboard" />
+          <meta name="description" content="Events Management Dashboard" />
+          <meta name="keywords" content="event, dashboard, location, programs, nigeria, abuja, programming, coding" />
+          <link rel="canonical" href="https://tabler-kohl.vercel.app/" />
+
+          {/* Open Graph / Facebook */}
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://tabler-kohl.vercel.app/" />
+          <meta property="og:title" content="Tabler :: Events Management App" />
+          <meta property="og:description" content="Events management dashboard app" />
+          <meta property="og:image" content="/img/logo-white.svg" />
+
+          {/* <!-- Twitter Meta Tags --> */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="tabler-kohl.vercel.app/" />
+          <meta property="twitter:url" content="https://tabler-kohl.vercel.app/" />
+          <meta name="twitter:title" content="Tabler :: Events Management App" />
+          <meta name="twitter:description" content="Events Management App" />
+          <meta name="twitter:image" content="/img/logo-white.svg" />
+
         </Head>
         
         <div className="page page-center" style={{ background: 'url(https://images.unsplash.com/photo-1562654501-a0ccc0fc3fb1?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
